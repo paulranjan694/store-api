@@ -59,10 +59,10 @@ const getAllProducts = async (req,res) => {
                 }
                 // console.log(item);
             });
-            console.log(filters);
+            // console.log(filters);
             
         }
-        console.log(queryObject);
+        // console.log(queryObject);
 
   
     let result = Product.find(queryObject).setOptions({ strictQuery: false });
